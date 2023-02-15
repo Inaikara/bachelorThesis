@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 华南理工大学硕/博士学位论文LaTeX模板
 
 本项目始于2020年，可用于撰写华南理工大学硕/博士学位论文。模板由[alwintsui](https://github.com/alwintsui/scutthesis)以及[yecfly](https://github.com/yecfly/scut-thesis)的模板修改而来，实测可以通过所有格式审核，在此向alwintsui、yecfly致以崇高的敬意！
@@ -51,3 +52,7 @@
   * [zhuohoudeputao](https://github.com/zhuohoudeputao)
 
 欢迎大家加入维护团队！！！
+=======
+# bachelorThesis
+本科毕业论文
+>>>>>>> f6cbb86bcc719e280b699b643706a39ebb78c197
