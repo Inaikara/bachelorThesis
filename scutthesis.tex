@@ -90,16 +90,16 @@
     \pagestyle{fancy}	%设置页眉页脚为fancy
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%分章节，结合导言区的\includeonly命令可仅编译部分章节，编译时不用切换界面，直接在相应章节编译即可。
 	\include{chapter01}%第一章
-	\include{chapter02}%第二章
-	\include{chapter03}%第三章
-	\include{chapter04}%第四章
+	%\include{chapter02}%第二章
+	%\include{chapter03}%第三章
+	%\include{chapter04}%第四章
 	% 自行根据需要添加章节。
 
 	\backmatter %章节不编号但页码继续
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%    微调，使得后续章节的页眉不带章号——by MCH
 	\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	\include{conclusion} %结论
+	%\include{conclusion} %结论
 	 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% bibtex参考文献设置  （原版）
 %%	\bibliographystyle{scutthesis}
 %%	\bibliography{F:/MyLibrary}
@@ -111,11 +111,11 @@
 	\printbibliography	% 参考文献著录
  	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  	% 只有一个附录
- 	\include{appendix}
+ 	%\include{appendix}
  	% 有多个附录
 	%\include{appendix1} %附录1
 	%\include{appendix2} %附录2
  	%%%%%%%%%%%%%%%%%%%
 	%\include{pub} %成果
-	\include{ack} %致谢
+	%\include{ack} %致谢
 \end{document}
